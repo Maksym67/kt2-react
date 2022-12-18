@@ -1,0 +1,13 @@
+.section1 {
+    min-height: 1200px;
+    width: 100%;
+}
+
+.color-section {
+    position: absolute;
+    min-height: 1200px;
+    height: 100%;
+    width: 70%;
+    background-color: #352961;
+    border-bottom-right-radius: 200px;
+}
