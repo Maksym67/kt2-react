@@ -1,18 +1,18 @@
-import React,{useEffect} from "react";
+import React, {useEffect} from "react";
 import "./index.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Section1() {
+function Home() {
     useEffect(() => {
         AOS.init();
       }, [])
 
     return (
-        <div className="section1">
+        <div id="home" className="home">
             <div className="color-section"></div>
         </div>
     );
 }
 
-export default Section1;
+export default Home;

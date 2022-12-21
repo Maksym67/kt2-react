@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Section1 from './components/sections/section1';
+import Header from './components/header';
+import Home from './components/sections/home-section';
 import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <Section1/>
-      <Footer/>
+        
+        <Home/>
+        <Footer/>
     </div>
   );
 }
