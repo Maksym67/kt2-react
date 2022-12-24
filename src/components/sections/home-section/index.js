@@ -40,7 +40,7 @@ export default class Home extends Component {
                                 <div className="slide-text">
                                     <h1>Welcome</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
-                                    
+                                    <button link="#">Get Started</button>
                                 </div>
                             </div>
                             <div>
