@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="main-footer-block">
-                <div>123</div>
+
             </div>
         </div>
     );
