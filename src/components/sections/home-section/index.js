@@ -37,7 +37,11 @@ export default class Home extends Component {
                         ref={slider => (this.slider1 = slider)}
                         >
                             <div>
-                                <h3>1</h3>
+                                <div className="slide-text">
+                                    <h1>Welcome</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+                                    
+                                </div>
                             </div>
                             <div>
                                 <h3>2</h3>

@@ -41,5 +41,14 @@
 .home img {
     max-width: 100%;
     height: auto;
-    overflow: hidden;
+}
+
+.home .slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .slide-text h1 {
+    
 }
