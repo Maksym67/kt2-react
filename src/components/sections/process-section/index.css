@@ -2,5 +2,61 @@
     width: 100%;
     background: #f1f3f8;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding: 10em 14%;
+}
+
+.process .title {
+    font-size: 3rem;
+    color: #352961;
+    margin-bottom: 1.8rem;
+    font-weight: 900;
+    max-width: 450px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.process .description {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+.process .section-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process .card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-top: 3rem;
+    border: 1px solid #d9d9d9;
+}
+
+.process .card img {
+    width: 65px;
+    margin-bottom: 1.5rem
+}
+
+.process .card h3 {
+    font-size: 1.5rem;
+    color: #352961;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.process .card p {
+    line-height: 1.7;
 }

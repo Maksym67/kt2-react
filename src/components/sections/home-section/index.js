@@ -5,7 +5,10 @@ import 'aos/dist/aos.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Image1 from "./imgs/img1.jpg"
+import Image1 from "./imgs/img1.jpg";
+import Image2 from "./imgs/img2.jpg";
+import Image3 from "./imgs/img3.jpg";
+import Image4 from "./imgs/img4.jpg";
 
 export default class Home extends Component {
       constructor(props) {
@@ -26,7 +29,7 @@ export default class Home extends Component {
         });
       }
 
-    render () {
+    render() {
         return (
             <div id="home" className="home">
                 <div className="color-section"></div>
@@ -40,23 +43,29 @@ export default class Home extends Component {
                                 <div className="slide-text">
                                     <h1>Welcome</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
-                                    <button link="#">Get Started</button>
+                                    <a href="#">Get Started</a>
                                 </div>
                             </div>
                             <div>
-                                <h3>2</h3>
+                                <div className="slide-text">
+                                    <h1>High Quality Website Templates</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+                                    <a href="#">Get Started</a>
+                                </div>
                             </div>
                             <div>
-                                <h3>3</h3>
+                                <div className="slide-text">
+                                    <h1>We do things right.</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+                                    <a href="#">Get Started</a>
+                                </div>
                             </div>
                             <div>
-                                <h3>4</h3>
-                            </div>
-                            <div>
-                                <h3>5</h3>
-                            </div>
-                            <div>
-                                <h3>6</h3>
+                                <div className="slide-text">
+                                    <h1>We Do Awesome Things</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+                                    <a href="#">Get Started</a>
+                                </div>
                             </div>
                         </Slider>
                     </div>
@@ -72,19 +81,13 @@ export default class Home extends Component {
                                 <img src={Image1}></img>
                             </div>
                             <div>
-                                <h3>2</h3>
+                                <img src={Image2}></img>
                             </div>
                             <div>
-                                <h3>3</h3>
+                                <img src={Image3}></img>
                             </div>
                             <div>
-                                <h3>4</h3>
-                            </div>
-                            <div>
-                                <h3>5</h3>
-                            </div>
-                            <div>
-                                <h3>6</h3>
+                                <img src={Image4}></img>
                             </div>
                         </Slider>
                     </div>

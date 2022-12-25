@@ -23,8 +23,12 @@
 }
 
 .home .container .column {
-    width: 47%;
-    height: 80vh;
+    width: 45%;
+    height: 70vh;
+    align-items: center;
+}
+
+.home .container .col-1 {
     display: flex;
     align-items: center;
 }
@@ -40,7 +44,9 @@
 
 .home img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    position: relative;
+    align-self: center;
 }
 
 .home .slide-text {
@@ -55,6 +61,7 @@
     color: #fff;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .home .slide-text p {
@@ -64,15 +71,26 @@
     max-width: 440px;
 }
 
-.home .slide-text button {
+.home .slide-text a {
     width: 45%;
     color: white;
     border: solid white 2px;
     background-color: transparent;
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 12px;
     font-weight: 900;
     padding: 1rem 3rem;
     line-height: 1.5;
     border-radius: 0.25rem;
+    text-align: center;
+    transition: 0.3s;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+}
+
+.home .slide-text a:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }

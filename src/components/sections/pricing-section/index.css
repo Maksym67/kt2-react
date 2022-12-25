@@ -17,10 +17,13 @@
     color: white;
     font-weight: 900;
     font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.3rem
 }
 
 .pricing .description {
     width: 60%;
+    line-height: 1.7;
 }
 
 .pricing p {

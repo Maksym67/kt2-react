@@ -11,11 +11,10 @@ export default function Header() {
     }, [])
     return (
         <ScrollspyNav
-            scrollTargetIds={["home", "footer", "pricing"]}
+            scrollTargetIds={["home", "footer", "process", "pricing"]}
             activeNavClass="is-active"
             scrollDuration="500"
-            headerBackground="true"
-            offset={50}
+            offset={0}
         >
         <div className={scroll ? "header header-scrolled" : "header"}>
             <div className="header-block">
@@ -23,7 +22,7 @@ export default function Header() {
                     <a className="header-logo">Expert</a>
                     <a href="#home" className="header-nav-button">Home</a>
                     <a href="" className="header-nav-button">Projects</a>
-                    <a className="header-nav-button">Process</a>
+                    <a href="#process" className="header-nav-button">Process</a>
                     <a className="header-nav-button">Testimonials</a>
                     <a className="header-nav-button">Services</a>
                 </div>
