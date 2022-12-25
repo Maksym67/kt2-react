@@ -1,0 +1,120 @@
+.projects {
+    padding-top: 10em;
+}
+
+.projects .section-text {
+    padding: var(--main-padding-origin);
+}
+
+.projects .section-title {
+    font-size: 3rem;
+    color: #352961;
+    margin-bottom: 1.8rem;
+    font-weight: 900;
+    max-width: 440px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.projects .section-desc {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    max-width: 500px;
+}
+
+.projects .slick-slider {
+    margin-top: 5em;
+    overflow-x: hidden;
+    padding-bottom: 10em;
+}
+
+.projects .slick-list {
+    padding-top: 1em;
+    padding-bottom: 2rem;
+}
+
+.projects .thumb-text {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.projects .slick-dots {
+    position: relative;
+}
+
+.projects .slick-dots button::before {
+    font-size: 11px;
+}
+
+.projects .card {
+    height: 58vh;
+    position: relative;
+    transition: .2s all ease-in-out;
+    overflow: hidden;
+}
+
+.projects .card img {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.projects .card:hover {
+    z-index: 3;
+    transform: scale(1.03);
+}
+
+.projects .card::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(53, 41, 97, 0.8);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s all ease;
+}
+
+.projects .card:hover::before {
+    opacity: .9;
+    visibility: visible;
+}
+
+.projects .card:hover .thumb-text {
+    transition-delay: .2s;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+
+.projects .card-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.projects .card span {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+}
