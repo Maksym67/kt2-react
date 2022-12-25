@@ -1,6 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import "./index.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image1 from "./imgs/img1.jpg";
 import Image2 from "./imgs/img2.jpg";
 import Image3 from "./imgs/img3.jpg";
@@ -12,13 +14,16 @@ function Projects() {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 4000,
         pauseOnHover: true
     }
+    AOS.init({
+        once: true,
+    });
     return(
-        <div id="projects" className="projects">
+        <div id="projects" className="projects" data-aos="fade-up">
             <div className="section-text">
                 <h2 className="section-title">Our Projects</h2>
                 <p className="section-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>

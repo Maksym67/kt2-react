@@ -1,0 +1,82 @@
+.testimonials {
+    padding-bottom: 15rem;
+}
+
+.testimonials .container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--main-padding-origin);
+}
+
+.testimonials .container .column {
+    width: 46%;
+    height: 70vh;
+    align-items: center;
+}
+
+.testimonials .container .col-1 {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .container .col-2 .slick-slider {
+    border-top-left-radius: 200px;
+    box-shadow: 0 30px 100px -20px rgb(0 0 0 / 40%);
+}
+
+.testimonials .container .col-2 .slick-list {
+    bottom: -5px;
+    border-top-left-radius: 200px;
+    box-shadow: 0 30px 100px -20px rgb(0 0 0 / 40%);
+}
+
+.testimonials .slick-slider {
+    overflow: hidden;
+}
+
+.testimonials img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials .slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.testimonials .slide-text .slide-title {
+    max-width: 440px;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.testimonials .slide-text .author {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Oswald", sans-serif;
+    color: #000;
+}
+
+.testimonials h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #352961;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.3rem
+}
+
+.testimonials .description {
+    max-width: 540px;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
