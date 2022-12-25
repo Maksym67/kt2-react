@@ -15,6 +15,7 @@ export default function Header() {
             activeNavClass="is-active"
             scrollDuration="500"
             offset={0}
+            headerBackground="true"
         >
         <div className={scroll ? "header header-scrolled" : "header"}>
             <div className="header-block">

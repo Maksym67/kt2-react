@@ -38,6 +38,7 @@
 .projects .thumb-text {
     height: 100%;
     width: 100%;
+    margin-top: 20px;
     position: absolute;
     text-align: center;
     display: flex;
@@ -47,6 +48,7 @@
     z-index: 2;
     opacity: 0;
     visibility: hidden;
+    transition: .3s all ease;
 }
 
 .projects .slick-dots {

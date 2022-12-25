@@ -12,7 +12,10 @@ function Projects() {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        pauseOnHover: true
     }
     return(
         <div id="projects" className="projects">

@@ -99,3 +99,44 @@
     background-color: #f8f9fa;
     border-color: #f8f9fa;
 }
+
+.home .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30rem;
+    padding: var(--main-padding-origin);
+}
+
+.home .row .col {
+    width: 45%;
+}
+
+.home .row .col h2 {
+    font-size: 3rem;
+    color: #352961;
+    margin-bottom: 1.8rem;
+    font-weight: 900;
+    max-width: 450px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.home .row .col p {
+    max-width: 440px;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.home .row .col .absolute-elem {
+    position: absolute;
+    background: #352961;
+    padding: 30px;
+    max-width: 300px;
+    bottom: 0;
+    z-index: 3;
+}

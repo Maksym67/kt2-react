@@ -38,6 +38,7 @@ export default class Home extends Component {
                         <Slider
                         asNavFor={this.state.nav2}
                         ref={slider => (this.slider1 = slider)}
+                        arrows={false}
                         >
                             <div>
                                 <div className="slide-text">
@@ -76,6 +77,9 @@ export default class Home extends Component {
                             slidesToShow={1}
                             swipeToSlide={true}
                             focusOnSelect={true}
+                            autoplay={true}
+                            autoplaySpeed={5000}
+                            pauseOnHover={true}
                             >
                             <div>
                                 <img src={Image1}></img>
@@ -90,6 +94,19 @@ export default class Home extends Component {
                                 <img src={Image4}></img>
                             </div>
                         </Slider>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <h2>Love our works</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+                        <p style={{ marginBottom: '3rem' }}>Aperiam neque id, illum laudantium autem vero quae debitis tempora modi. Ipsa molestias enim in rem et incidunt beatae fugit, ab quam optio atque maiores facere est quidem, veritatis commodi.</p>
+                    </div>
+                    <div className="col">
+                        <div className="absolute-box">
+                            <div className="absolute-elem"></div>
+                            <img src={Image1}></img>
+                        </div>
                     </div>
                 </div>
             </div>
