@@ -33,6 +33,16 @@
     align-items: center;
 }
 
+.home .container .column .col-2 {
+    position: relative;
+}
+
+.home .col-2 .nav-btns {
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
 .home .container .col-2 .slick-slider {
     border-top-left-radius: 200px;
     box-shadow: 0 30px 100px -20px rgb(0 0 0 / 40%);

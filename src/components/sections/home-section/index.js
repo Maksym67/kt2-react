@@ -100,6 +100,9 @@ export default class Home extends Component {
                                 <img src={Image4}></img>
                             </div>
                         </Slider>
+                        <div className="nav-btns">
+                            <a className="slick-next" href="#">123</a>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
