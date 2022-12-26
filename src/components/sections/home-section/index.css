@@ -208,3 +208,58 @@
     color: gray;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 1200px) {
+    .home .color-section {
+        min-height: 955px;
+    }
+
+    .home .row .col .absolute-elem {
+        right: -5%;
+    }
+
+    .home .row-22 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .home .row {
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .home .row .col .absolute-elem {
+        right: -5%;
+    }
+
+    .home .row-22 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .home .row {
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .home .color-section {
+        min-height: 800px;
+    }
+    .home .row .col .absolute-elem {
+        right: -5%;
+        bottom: -70%;
+    }
+
+    .home .row-22 {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5rem;
+        padding-bottom: 0rem;
+    }
+    .home .row {
+        margin-top: 1rem;
+    }
+    .home .counter-text span {
+        font-size: 2.5rem;
+    }
+}

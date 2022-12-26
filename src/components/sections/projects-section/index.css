@@ -120,3 +120,21 @@
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 1500px) {
+    .projects .card {
+        height: 43vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .projects .card {
+        height: 47vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projects .card {
+        height: 33vh;
+    }
+}

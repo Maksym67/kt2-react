@@ -60,3 +60,21 @@
 .process .card p {
     line-height: 1.7;
 }
+
+@media only screen and (max-width: 1200px) {
+    .process {
+        padding: 5em 5%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .process {
+        padding: 5em 5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .process .card {
+        padding: 15px;
+    }
+}

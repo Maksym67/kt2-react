@@ -3,17 +3,12 @@ import ScrollspyNav from "react-scrollspy-nav";
 import "./index.css"
 
 export default function Header() {
-    const [scroll, setScroll] = useState(false)
+    const [scroll, setScroll] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll", () => {
         setScroll(window.scrollY > 15)
         })
-        window.addEventListener('resize', () => {
-            this.setState({
-                isMobile: window.innerWidth < 1200
-        });
-        }, false);
-    }, [])
+    }, );
     return (
         <ScrollspyNav
             scrollTargetIds={["home", "projects", "process", "testimonials", "services", "pricing", "contacts"]}

@@ -119,3 +119,30 @@
     font-weight: 300;
     font-size: 1.1rem;
 }
+
+@media only screen and (max-width: 1200px) {
+    .services {
+        padding-top: 5em;
+    }
+    .services .card {
+        height: 68vh;
+        margin-right: 15px;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .services {
+        background: #f1f3f8;
+        padding-top: 5em;
+    }
+    .services .card {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .services .card {
+        height: 85vh;
+    }
+}

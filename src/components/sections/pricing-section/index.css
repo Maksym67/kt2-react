@@ -152,3 +152,24 @@
     z-index: 3;
     transform: scale(1.05);
 }
+
+@media only screen and (max-width: 1200px) {
+    .pricing h2 {
+        margin-top: 3rem;
+    }
+    .pricing .col {
+        padding: 18px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .pricing h2 {
+        margin-top: 3rem;
+    }
+    .pricing .col {
+        padding: 18px;
+    }
+    .pricing .color {
+        height: 80vh;
+    }
+}
